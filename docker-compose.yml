@@ -1,0 +1,11 @@
+version: "2"
+services:
+  buscar_ml:
+    environment:
+    - DB_USER=milito
+    - DB_PASS=lautaro
+    - DB_URL=159.89.87.78:27017
+    - ML_CLIENT_ID=EezWxXN7ip0Jd55Gvyp4Vn7xU0phnrxh
+    - ML_CLIENT_SECRET=159.89.87.78:27017
+    container_name: buscar_ml
+    image: buscar_ml

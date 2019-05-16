@@ -1,0 +1,19 @@
+{
+  "name": "Administrador_notificaciones_ML",
+  "version": "1.0.0",
+  "description": "Sistema responsable de administrar las cuentas de ML y sus notificaciones",
+  "author": "Federico Maidan <fede.maidan@gmail.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mercadolibre": "0.0.13",
+    "mongoose": "5.0.7",
+    "body-parser": "latest",
+    "needle": "0.11.0",
+    "claudia": "latest",
+    "sleep":"latest"
+  }
+}
