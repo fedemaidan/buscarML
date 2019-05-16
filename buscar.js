@@ -19,7 +19,7 @@ var condicionML = armarCondicion(process.argv);
 console.log(condicionML)
 console.log("Comienza .. ");
 
-meliObject.get("sites/MLA/search/?"+condicionML+"&limit="+limit+"&offset=0", async (req, datos) => {
+meliObject.get("sites/MLA/search/?"+condicionML+"&limit="+limit+"&offset=0", (req, datos) => {
 	var paging = datos.paging;
 	total = paging.total;
 	console.log("Total de publicaciones a procesar: "+total)
